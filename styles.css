@@ -1,0 +1,298 @@
+  @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.ttf") format("woff"),
+         url("Fonts/Booter - Zero Zero2.ttf") format("woff2");
+         font-weight: normal;
+         font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.main-nav {
+ text-align: center;
+ font-size: 1em;
+}
+.nav a:hover{
+    background-color: rgba(255,255,255,.3)
+}
+.main-header{
+    background-image: url("Images/Header Background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-bottom: 30px;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;;
+}
+
+.band-name-large{
+    font-size: 8em;
+}
+
+.content-section{
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.fem;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius:50px;
+}
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+ 
+.main-container-ul {
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li {
+    padding: 0 .5em
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border : 2px solid #2D9CDB;
+    background-color: rgba(255,255,255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+   background-color: rgba(255,255,255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 58%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom:1em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display:inline block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #555;
+    font-weight: bold;
+}
+
+.tour-city {
+ width: 24%;
+}
+ 
+.tour-arena {
+width: 42%;
+}
+
+.tour-btn 
+{max-width: 19%}
+
+.btn-primary {
+    color: white;
+    background-color:#56CCF2;
+    border: none;
+    border-radius: .3em ;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+ background-color: #2D9CDB;
+}
+
+
+.btn-secondary {
+    color: white;
+    background-color:red;
+    border: none;
+    border-radius: .5em ;
+    font-weight: bold;
+}
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-tittle {
+    display: block;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.button{
+    background: coral;
+    padding: 1em 2em;
+    color: #fff;
+    border: 0;
+}
+.button:hover{
+    background: #333;
+
+}
+.modal{
+    display:none;
+    position:fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    overflow: auto;
+    background-color:rgba(0,0,0,0.10);
+}
+.modal-content{
+    background-color:#f4f4f4;
+    margin: 20% auto;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0.5px 0 rgba(0,0,0,0.2),0.7px 0 rgba(0,0,0,0.17);
+
+}
+.closeBtn{
+    color:#ccc;
+    float: nright;
+    font-size: 30px;
+}
+.closeBtn:hover,.closeBtn.focus{
+    color:#000;
+    text-decoration:none;
+    cursor:ponter;
+}
+.product{
+    text-align: center;
+}
+
+.cart{
+    content: hidden;;
+}
+
+/* phone */
+.phonelink{
+    position: fixed; /* Lock location always on the scree */
+    bottom: 0; /* Set to the bottom */
+    right: 0; /* Set to the right */
+    margin: 30px; /* Add space around background */
+}
+.phoneicon{
+    width: 40px; /* Set width of icon */
+    height: 40px; /* Set height of icon */
+}
+@media screen and (max-width: 480px){
+    .lgscreenphone{
+        display: none;  /* On small screens make phone icon disappear */
+    }
+    .mbscreenphone{
+        display: block; /* On small screens make phone icon appear */
+    }
+}
+@media screen and (min-width: 481px){
+    .mbscreenphone{
+        display: none; /* On large screens make phone icon disappear */
+    }
+    .lgscreenphone{
+        display: block; /* On large screens make phone icon appear */
+    }
+}
