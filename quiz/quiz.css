@@ -18,7 +18,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%);
+    background-color: hsl(var(--hue), 100%, 15%);
 
 }
 
@@ -31,8 +31,8 @@ body.wrong{
 }
 
 .container{
-   height: 80vh;
-   width: 60vw;
+   height: 90vh;
+   width: 90vw;
    max-width: 80%;
    background-color:white;
    border-radius: 5px;
@@ -41,14 +41,14 @@ body.wrong{
 }
 
 .question{
-    font-size: 40px;
+    font-size: 5vh;
 }
 
 .btn-grid{
     display: grid;
     grid-template-columns: repeat(2,auto);
     height: 40vh;
-    gap: 20px;
+    gap: 4vh;
     margin: 20px 0;
 }
 
@@ -60,11 +60,14 @@ body.wrong{
     padding: 5px 10px;
     color: white;
     outline: none;
-    font-size: 40px;
+    font-size: 5vh;
+    position: relative;
 }
 
 .btn:hover{
     border-color: black;
+    transform: scale(1.03);
+    transition: 0.3s ease-in-out;
 }
 
 .btn.correct{
@@ -77,9 +80,10 @@ body.wrong{
 }
 
 .start-btn, .next-btn{
-    font-size: 100px;
+    font-size: 10vh;
     font-weight: bold;
     padding: 10px 20px;
+    position: absolute;
     
 }
 

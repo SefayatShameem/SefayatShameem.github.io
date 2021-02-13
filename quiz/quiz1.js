@@ -78,31 +78,89 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-        question: 'What is 4+4?',
+        question: '২+২?',
         answers: [
-            {text:'4', correct: false},
-            {text:'6', correct: false},
-            {text:'8', correct: true},
-            {text:'2', correct: false},
+            {text:'৯', correct: false},
+            {text:'৮', correct: false},
+            {text:'৪', correct: true},
+            {text:'১০', correct: false},
         ]
     },
 
     {
-        question: 'What is 4*2?',
+        question: 'What is ৮x২?',
         answers: [
-            {text:'4', correct: false},
-            {text:'6', correct: false},
-            {text:'8', correct: true},
-            {text:'2', correct: false},
+            {text:'১৬', correct: false},
+            {text:'২০', correct: false},
+            {text:'৮', correct: true},
+            {text:'১৪', correct: false},
         ]
     },
     {
-        question: 'What is 2/2?',
+        question: 'What is ৬x2?',
         answers: [
-            {text:'4', correct: false},
-            {text:'6', correct: false},
-            {text:'8', correct: false},
-            {text:'2', correct: true},
+            {text:'৬', correct: false},
+            {text:'১০', correct: false},
+            {text:'১৬', correct: false},
+            {text:'১২', correct: true},
+        ]
+    },
+
+    {
+        question: 'What is ৭x৩?',
+        answers: [
+            {text:'২৭', correct: false},
+            {text:'১৫', correct: false},
+            {text:'২১', correct: true},
+            {text:'১৮', correct: false},
+        ]
+    },
+    {
+        question: 'What is ১০/২?',
+        answers: [
+            {text:'২', correct: false},
+            {text:'৬', correct: false},
+            {text:'১', correct: false},
+            {text:'৫', correct: true},
+        ]
+    }
+    ,
+
+    {
+        question: 'What is ৩*৭?',
+        answers: [
+            {text:'৯', correct: false},
+            {text:'১৩', correct: false},
+            {text:'১০', correct: true},
+            {text:'৫', correct: false},
+        ]
+    },
+    {
+        question: 'What is ৯/৩?',
+        answers: [
+            {text:'৭', correct: false},
+            {text:'৫', correct: false},
+            {text:'১', correct: false},
+            {text:'৩', correct: true},
+        ]
+    },
+
+    {
+        question: 'What is ৯+২?',
+        answers: [
+            {text:'১০', correct: false},
+            {text:'৯', correct: false},
+            {text:'১১', correct: true},
+            {text:'১৫', correct: false},
+        ]
+    },
+    {
+        question: 'What is ২/২?',
+        answers: [
+            {text:'০', correct:  true},
+            {text:'২', correct: false},
+            {text:'৪', correct: false},
+            {text:'১', correct:false},
         ]
     }
     

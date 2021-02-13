@@ -35,16 +35,19 @@ min-height: 100vh;
   display:flex;
   justify-content : center;
   align-items: center;
+  
 }
 img{
   display: block;
   transform: scale(1);
   transition: 0.3s ease-in-out;
+  
 }
 
 img:hover{
  transform: scale(1.15);
  transition: 0.3s ease-in-out;
+ 
 }
 
 

@@ -90,19 +90,57 @@ const questions = [
     {
         question: ' "শিক্ষা গুরুর" মর্যাদা কে লিখেছেন?',
         answers: [
-            {text:'4', correct: false},
-            {text:'নীল পরী', correct: false},
-            {text:'সুবর্ণা', correct: true},
-            {text:'', correct: false},
+            {text:'রবীন্দ্রনাথ ঠাকুর', correct: false},
+            {text:'সুকুমার রায়', correct: false},
+            {text:'কাজী কাদের নেওয়াজ', correct: true},
+            {text:'জসীমঅউদ্দিন', correct: false},
         ]
     },
     {
-        question: 'What is 2/2?',
+        question: 'দেশ স্বাধীন হবার পর বুদ্ধিজীবীদের লাশ পাওয়া যায় --',
         answers: [
-            {text:'4', correct: false},
-            {text:'6', correct: false},
-            {text:'8', correct: false},
-            {text:'2', correct: true},
+            {text:'রাউএরবাজার বদ্ধভূমিতে', correct: true},
+            {text:'ঢাকা বিস্ববিদ্যালয়ে', correct: false},
+            {text:'সৌহরাওয়ার্দী উদ্যানে', correct: false},
+            {text:'সংসদ ভবনে', correct: false},
+        ]
+    },
+
+    {
+        question: 'আনন্দপুরে কখন মেলা বসে?',
+        answers: [
+            {text:'ষোলই ডিসেম্বর', correct: false},
+            {text:'একিশে ফেব্রুয়ারি', correct: false},
+            {text:'পহেলা ফাল্গুন', correct: true},
+            {text:'পৌষ সংক্রান্তি', correct: false},
+        ]
+    },
+    {
+        question: 'আমাদের সবচেয়ে প্রাচীণ শিল্প?',
+        answers: [
+            {text:'চারুশিল্প', correct:false },
+            {text:'কারুশিল্প', correct: false},
+            {text:'তাতশিল্প', correct: true},
+            {text:'শিল্প-বাণিজ্য', correct: false},
+        ]
+    },
+
+    {
+        question: ' "কুমার সম্প্রদায় কিসের কাজ করে?',
+        answers: [
+            {text:'ইটের কাজ', correct: false},
+            {text:'বাশের কাজ', correct: false},
+            {text:'মাটির কাজ', correct: true},
+            {text:'কাঠের কাজ', correct: false},
+        ]
+    },
+    {
+        question: 'পোড়ামাটির ফলকের অন্য নাম --',
+        answers: [
+            {text:'টেরাকোটা', correct: true},
+            {text:'পুতুল', correct: false},
+            {text:'হাড়ি', correct: false},
+            {text:'ইট', correct: false},
         ]
     }
     

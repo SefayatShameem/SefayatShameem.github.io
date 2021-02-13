@@ -1,118 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/iframe.css">
-    <script src="js/script.js"></script>
-    <link href="htps://fonts.googleapis.com/s?familyOswald|Roboto:100" rel="stylesheet">
-  
-    <link href="htps://fonts.googleapis.com/s?familyOswald|Roboto:100" rel="stylesheet">
-    <script defer src="quiz/quiz1.js"></script>
-    
+    <title>Responsive Navbar</title>
 </head>
+
 <body>
-   <nav>
-       <div class="hamburer">
-        <a class="logo" href="#">ARealbooK || পঞ্চম শ্রেণি</a>
-     
-       <ul class="nav-links">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-
-        <li>
-          <a href="https://meet.google.com/">Start Class Meetng</a>
-        </li>
-     
-        <li class="nav-item">
-          <a href="https://classroom.google.com/h">Class Manager</a>
-        </li>
-        <li >
-
-       
-        
-       
-            <div class="dropdown">
-              <button class="drop">Classes</button>
-              <div class="dropdown-content">
-                <a class="dropdown-item" href="oneb.html">প্রথম শ্রেণি</a>
-                                <a  href="twob.html">দ্বিতীয় শ্রেণি</a>
-                                <a  href="threeb.html">তৃতীয় শ্রেণি</a>
-                                <a  href="fourb.html">চতুর্থ শ্রেণি</a>
-                                <a  href="fiveb.html">পঞ্চম শ্রেণি</a>
-                                <a  href="sixb.html">ষষ্ঠ শ্রেণি</a>
-                                <a  href="sevenb.html">সপ্তম শ্রেণি</a>
-                                <a  href="eightb.html">অষ্টম শ্রেণি</a>
-                                <a ` href="ninetenb.html">নবম-দশম শ্রেণি </a>
-                </div>
-          </div>
-      </li>
-         
-      <li >
-        <div class="dropdown">
-          <button class="drop">Books</button>
-          <div class="dropdown-content">
-            <a  href="https://drive.google.com/file/d/1BZHgbqzUEu17_tPAiAQArB_niU_L-cF0/preview" target="test1"> আমার বাংলা বই</a>
-            <a  href="https://drive.google.com/file/d/11CRVsW4i9fuo3H9fO76N3hXLvLqlo4cg/preview" target="test1"> প্রাথমিক গণিত</a>
-            <a  href="https://drive.google.com/file/d/1kCnyERAJiP8enX2Dwm8ee2TLWtE01JHB/preview" target="test1"> English for Today</a>
-            <a  href="https://drive.google.com/file/d/1BszeK3WHZjKg3gDRfCT9uVzvAN6pOe3H/preview" target="test1"> প্রাথমিক বিজ্ঞান</a>                
-            <a  href="https://drive.google.com/file/d/1Pz7fnpRjKbA4oliwIp9SeEBzL6KXw2Q3/preview" target="test1">বাংলাদেশ ও বিশ্বপরিচয়</a>
-            <a  href="https://drive.google.com/file/d/1sAVJVdihKJQeVuYpMAzHbJUn-BzK3aat/preview" target="test1" >ইসলাম ও নৈতিক শিক্ষা</a>
-            <a  href="https://drive.google.com/file/d/1o4YekRA-eKjtSPHX80QvxAWkmCAMacMI/preview" target="test1" >হিন্দুধর্ম ও নৈতিক শিক্ষা</a>
-            <a  href="https://drive.google.com/file/d/1iD7kD6ahLvn7u-Tt_C246RzbfvjSl2o-/preview" target="test1" > বৌদ্ধধর্ম ও নৈতিক শিক্ষা</a>
-           <a  href="https://drive.google.com/file/d/1P55uhtmiC8VNKD51v2rbIXpO2kp-RaR6/preview" target="test1" > খ্রিষ্টধর্ম ও নৈতিক শিক্ষা</a>
+    <header>
+        <div class="container">
+            <input type="checkbox" name="" id="check">
+            
+            <div class="logo-container">
+                 <h3 class="logo">ARealbooK||<span>BD</span></h3>
             </div>
-      </div>
-  </li>
-    
-  
-          <li >
-            <div class="dropdown">
-                <button class="drop">Quiz</button>
-                <div class="dropdown-content">
-                  <a href="quiz/quiz1.html">Math</a>
-                  
-                    </div>
-              </div>
-          </li>
 
-          
+            <div class="nav-btn">
+                <div class="nav-links">
+                   <ul>
+                        <li class="nav-link" style="--i: .6s">
+                            <a href="index.html">Home</a>
+                        </li>
+                         
+                         <li class="nav-link" style="--i: .85s">
+                            <a href="#">Books<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a  href="https://drive.google.com/file/d/1BZHgbqzUEu17_tPAiAQArB_niU_L-cF0/preview" target="test1"> আমার বাংলা বই</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a  href="https://drive.google.com/file/d/11CRVsW4i9fuo3H9fO76N3hXLvLqlo4cg/preview" target="test1"> প্রাথমিক গণিত</a>
+                                    </li>
+                                   
+                                    <li class="dropdown-link">
+                                        <a  href="https://drive.google.com/file/d/1kCnyERAJiP8enX2Dwm8ee2TLWtE01JHB/preview" target="test1"> English for Today</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a  href="https://drive.google.com/file/d/1BszeK3WHZjKg3gDRfCT9uVzvAN6pOe3H/preview" target="test1"> প্রাথমিক বিজ্ঞান</a>     
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a  href="https://drive.google.com/file/d/1Pz7fnpRjKbA4oliwIp9SeEBzL6KXw2Q3/preview" target="test1">বাংলাদেশ ও বিশ্বপরিচয়</a>
+                                    </li>
+                                   
+                                    <li class="dropdown-link">
+                                        <a  href="https://drive.google.com/file/d/1sAVJVdihKJQeVuYpMAzHbJUn-BzK3aat/preview" target="test1" >ইসলাম ও নৈতিক শিক্ষা</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a  href="https://drive.google.com/file/d/1o4YekRA-eKjtSPHX80QvxAWkmCAMacMI/preview" target="test1" >হিন্দুধর্ম ও নৈতিক শিক্ষা</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a  href="https://drive.google.com/file/d/1iD7kD6ahLvn7u-Tt_C246RzbfvjSl2o-/preview" target="test1" > বৌদ্ধধর্ম ও নৈতিক শিক্ষা</a>
+                                    </li>
+                                   
+                                    <li class="dropdown-link">
+                                        <a  href="https://drive.google.com/file/d/1P55uhtmiC8VNKD51v2rbIXpO2kp-RaR6/preview" target="test1" > খ্রিষ্টধর্ম ও নৈতিক শিক্ষা</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                       
+                        <li class="nav-link" style="--i: .85s">
+                            <a href="#">Class<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a  href="oneb.html">প্রথম শ্রেণি</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a  href="twob.html">দ্বিতীয় শ্রেণি</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a  href="threeb.html">তৃতীয় শ্রেণি</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a  href="fourb.html">চতুর্থ শ্রেণি</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">পঞ্চম শ্রেণি<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a  href="https://drive.google.com/file/d/1BZHgbqzUEu17_tPAiAQArB_niU_L-cF0/preview" target="test1"> আমার বাংলা বই</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a  href="https://drive.google.com/file/d/11CRVsW4i9fuo3H9fO76N3hXLvLqlo4cg/preview" target="test1"> প্রাথমিক গণিত</a>
+                                                </li>
+                                               
+                                                <li class="dropdown-link">
+                                                    <a  href="https://drive.google.com/file/d/1kCnyERAJiP8enX2Dwm8ee2TLWtE01JHB/preview" target="test1"> English for Today</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a  href="https://drive.google.com/file/d/1BszeK3WHZjKg3gDRfCT9uVzvAN6pOe3H/preview" target="test1"> প্রাথমিক বিজ্ঞান</a>     
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a  href="https://drive.google.com/file/d/1Pz7fnpRjKbA4oliwIp9SeEBzL6KXw2Q3/preview" target="test1">বাংলাদেশ ও বিশ্বপরিচয়</a>
+                                                </li>
+                                               
+                                                <li class="dropdown-link">
+                                                    <a  href="https://drive.google.com/file/d/1sAVJVdihKJQeVuYpMAzHbJUn-BzK3aat/preview" target="test1" >ইসলাম ও নৈতিক শিক্ষা</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a  href="https://drive.google.com/file/d/1o4YekRA-eKjtSPHX80QvxAWkmCAMacMI/preview" target="test1" >হিন্দুধর্ম ও নৈতিক শিক্ষা</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a  href="https://drive.google.com/file/d/1iD7kD6ahLvn7u-Tt_C246RzbfvjSl2o-/preview" target="test1" > বৌদ্ধধর্ম ও নৈতিক শিক্ষা</a>
+                                                </li>
+                                               
+                                                <li class="dropdown-link">
+                                                    <a  href="https://drive.google.com/file/d/1P55uhtmiC8VNKD51v2rbIXpO2kp-RaR6/preview" target="test1" > খ্রিষ্টধর্ম ও নৈতিক শিক্ষা</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Quiz<i class="fas fa-caret-down"></i></a>
+                                                    <div class="dropdown second">
+                                                        <ul>
+                                                            <li class="dropdown-link">
+                                                                <a href="quiz/quiz5b.html">বাংলা</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="quiz/quizs.html">বিজ্ঞান</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="quiz/quizib.html">ইসলাম ও নৈতিক শিক্ষা</a>
+                                                            </li>
+                                                            <div class="arrow"></div>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a  href="sixb.html">ষষ্ঠ শ্রেণি</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a  href="sevenb.html">সপ্তম শ্রেণি</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a  href="eightb.html">অষ্টম শ্রেণি</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a  href="ninetenb.html">নবম-দশম শ্রেণি </a>
+                                    </li>                                  
+                                </ul>
+                            </div>
+                        </li>
+                       
+                       
+                        <li class="nav-link" style="--i: .85s">
+                            <a href="#">Quiz<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="quiz/quiz5b.html">বাংলা</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="quiz/quiz5s.html">বিজ্ঞান</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="quiz/quiz5ib.html">ইসলাম ও নৈতিক শিক্ষা</a>
+                                    </li>
+                                   
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: .6s">
+                            <a href="https://meet.google.com/">Start Class Meetng</a>
+                        </li>
+                        <li class="nav-link" style="--i: .6s">
+                            <a href="https://classroom.google.com/h">Class Manager</a>
+                        </li>
+                    </ul>
+                </div>
 
-       </ul>
-      </div>
-   </nav>
+               
+            </div>
 
-   <div class="content">
- 
-   <section class="book-area">
-
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
    
-
-    <div class="main-content">
-        <div class="book">
-            <iframe src="https://drive.google.com/file/d/1BZHgbqzUEu17_tPAiAQArB_niU_L-cF0/preview" name="test1" id="test1"></iframe>
-        </div>
-
-    
-      
-    </div>
-  </section>
-
-  
-
-        </div>
-      
-
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ <div class="content">
+ 
+        <section class="book-area">
+     
+        
+     
+         <div class="main-content">
+             <div class="book">
+                 <iframe src="https://drive.google.com/file/d/1BZHgbqzUEu17_tPAiAQArB_niU_L-cF0/preview" name="test1" id="test1"></iframe>
+             </div>      
+         </div>
+       </section>
+     
        
-    
+     
+             </div>
 </body>
+
 </html>
-
-
