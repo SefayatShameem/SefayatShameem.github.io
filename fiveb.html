@@ -1,163 +1,118 @@
 <!DOCTYPE html>
-<html>
-    <head>
-            <title>ARealbooK| Store</title>
-            <meta name="description" content="This is a description">
-            <meta name="viewport" content="wdith=device width, initial scale=1.0">
-            <meta htttp-equiv="X-UA-Compatible" conteny="ie=edge">
-            <script src="js/script.js"></script>
-            <link href="htps://fonts.googleapis.com/s?familyOswald|Roboto:100" rel="stylesheet">
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-            <link rel="stylesheet" href="css/style2.css">
-            <link href="htps://fonts.googleapis.com/s?familyOswald|Roboto:100" rel="stylesheet">
-            
-     </head>
-     <body onload="realtimeClock()">
-            <header class="main-header">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">ARealbooK ||পঞ্চম শ্রেণি</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
-                    </li>
-
-                    <li class="nav-item">
-                            <a class="nav-link" href="https://meet.google.com/">Start Class Meetng</a>
-                          </li>
-                       
-                          <li class="nav-item">
-                            <a class="nav-link" href="https://classroom.google.com/h">Class Manager</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#"> <div id="clock"> </div></a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                কুইজ
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            
-                              <a class="dropdown-item" href="quiz/quiz5b.html">বাংলা</a>
-                              <a class="dropdown-item" href="quiz/quiz5e.html">Enlish</a>
-                              <a class="dropdown-item" href="quiz/quiz5b.html">তৃতীয় শ্রেণি</a>
-                              <a class="dropdown-item" href="quiz/quiz5b.html">চতুর্থ শ্রেণি</a>
-                              <a class="dropdown-item" href="quiz/quiz5b.html">পঞ্চম শ্রেণি</a>
-                              <a class="dropdown-item" href="quiz/quiz5b.html">বাংলা</a>
-                              <a class="dropdown-item" href="quiz/quiz5b.html">দ্বিতীয় শ্রেণি</a>
-                              <a class="dropdown-item" href="quiz/quiz5b.html">তৃতীয় শ্রেণি</a>
-                              <a class="dropdown-item" href="quiz/quiz5b.html">চতুর্থ শ্রেণি</a>
-                              <a class="dropdown-item" href="fiveb.html">পঞ্চম শ্রেণি</a>
-                            </div>
-                          </li>
-                          <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  প্রাথমিক স্তর 
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                              
-                                <a class="dropdown-item" href="oneb.html">প্রথম শ্রেণি</a>
-                                <a class="dropdown-item" href="twob.html">দ্বিতীয় শ্রেণি</a>
-                                <a class="dropdown-item" href="threeb.html">তৃতীয় শ্রেণি</a>
-                                <a class="dropdown-item" href="fourb.html">চতুর্থ শ্রেণি</a>
-                                <a class="dropdown-item" href="fiveb.html">পঞ্চম শ্রেণি</a>
-                              </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  মাধ্যমিক স্তর 
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                  <a class="dropdown-item" href="sixb.html">ষষ্ঠ শ্রেণি</a>
-                                <a class="dropdown-item" href="sevenb.html">সপ্তম শ্রেণি</a>
-                                <a class="dropdown-item" href="eightb.html">অষ্টম শ্রেণি</a>
-                                <a class="dropdown-item" href="ninetenb.html">নবম-দশম শ্রেণি </a>
-                            
-                              </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  ইবতেদায়ী স্তর 
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                               
-                                  
-                                <a class="dropdown-item" href="onei.html">প্রথম শ্রেণি</a>
-                                <a class="dropdown-item" href="twoi.html">দ্বিতীয় শ্রেণি</a>
-                                <a class="dropdown-item" href="threei.html">তৃতীয় শ্রেণি</a>
-                                <a class="dropdown-item" href="fouri.html">চতুর্থ শ্রেণি</a>
-                                <a class="dropdown-item" href="fivei.html">পঞ্চম শ্রেণি</a>
-                              </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  দাখিল স্তর 
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                 <a class="dropdown-item" href="sixi.html">ষষ্ঠ শ্রেণি</a>
-                                
-                                <a class="dropdown-item" href="eighti.html">অষ্টম শ্রেণি</a>
-                                <a class="dropdown-item" href="nineteni.html">নবম-দশম শ্রেণি </a>
-                            
-                              </div>
-                            </li>
-                         
-                  </ul>
-                </div>
-              </nav>
-               
-            </header>
-
-
-        <div class="main-content">
-              
- 
-   
-	 
-	
-        <h3>২০২১ শিক্ষাবর্ষের মাধ্যমিক স্তরের পঞ্চম শ্রেণির পাঠ্যপুস্তক</h3>
-
-
-
-	
-            <div class="book-catalog">
-              <div class="book 1">  <a aria-hidden="true" tabindex="-1" data-cy="book-link" href="https://drive.google.com/file/d/1BZHgbqzUEu17_tPAiAQArB_niU_L-cF0/view" > <img class="shop-item-image" src="img/bangla/five/amarboi.png"></a></div>
-              <div class="book 2">             <a aria-hidden="true" tabindex="-1" data-cy="book-link" href="https://drive.google.com/file/d/11CRVsW4i9fuo3H9fO76N3hXLvLqlo4cg/view" > <img class="shop-item-image" src="img/bangla/five/english.png"></a></div>
-              <div class="book 3">       <a aria-hidden="true" tabindex="-1" data-cy="book-link" href="https://drive.google.com/file/d/1kCnyERAJiP8enX2Dwm8ee2TLWtE01JHB/view" > <img class="shop-item-image" src="img/bangla/five/math.png"></a></div>
-              <div class="book 1">  <a aria-hidden="true" tabindex="-1" data-cy="book-link" href="https://drive.google.com/file/d/1BszeK3WHZjKg3gDRfCT9uVzvAN6pOe3H/view" > <img class="shop-item-image" src="img/bangla/five/science.png"></a></div>
-              <div class="book 2">             <a aria-hidden="true" tabindex="-1" data-cy="book-link" href="https://drive.google.com/file/d/1Pz7fnpRjKbA4oliwIp9SeEBzL6KXw2Q3/view" > <img class="shop-item-image" src="img/bangla/five/bangladesh.png"></a></div>
-              <div class="book 3">       <a aria-hidden="true" tabindex="-1" data-cy="book-link" href="https://drive.google.com/file/d/1sAVJVdihKJQeVuYpMAzHbJUn-BzK3aat/view" > <img class="shop-item-image" src="img/bangla/five/islam.png"></a></div>
-              <div class="book 1">  <a aria-hidden="true" tabindex="-1" data-cy="book-link" href="https://drive.google.com/file/d/1o4YekRA-eKjtSPHX80QvxAWkmCAMacMI/view" > <img class="shop-item-image" src="img/bangla/five/hindu.png"></a></div>
-              <div class="book 2">             <a aria-hidden="true" tabindex="-1" data-cy="book-link" href="https://drive.google.com/file/d/1iD7kD6ahLvn7u-Tt_C246RzbfvjSl2o-/view" > <img class="shop-item-image" src="img/bangla/five/buddho.png"></a></div>
-              <div class="book 3">       <a aria-hidden="true" tabindex="-1" data-cy="book-link" href="https://drive.google.com/file/d/1P55uhtmiC8VNKD51v2rbIXpO2kp-RaR6/view" > <img class="shop-item-image" src="img/bangla/five/christian.png"></a></div>
-             
-
-    </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/iframe.css">
+    <script src="js/script.js"></script>
+    <link href="htps://fonts.googleapis.com/s?familyOswald|Roboto:100" rel="stylesheet">
+  
+    <link href="htps://fonts.googleapis.com/s?familyOswald|Roboto:100" rel="stylesheet">
+    <script defer src="quiz/quiz1.js"></script>
     
+</head>
+<body>
+   <nav>
+       <div class="hamburer">
+        <a class="logo" href="#">ARealbooK || পঞ্চম শ্রেণি</a>
+     
+       <ul class="nav-links">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
 
+        <li>
+          <a href="https://meet.google.com/">Start Class Meetng</a>
+        </li>
+     
+        <li class="nav-item">
+          <a href="https://classroom.google.com/h">Class Manager</a>
+        </li>
+        <li >
 
-
-
-                                                  
-                                             </div>    
-                           <!--phone-->
-                            </section>              
-        <!--test section-->
-        </div>
-                    
+       
         
-   <!-- hitwebcounter Code START -->
-<a href="https://www.hitwebcounter.com" target="_blank">
-  <img src="https://hitwebcounter.com/counter/counter.php?page=7744821&style=0001&nbdigits=5&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>         
-
-
-                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+       
+            <div class="dropdown">
+              <button class="drop">Classes</button>
+              <div class="dropdown-content">
+                <a class="dropdown-item" href="oneb.html">প্রথম শ্রেণি</a>
+                                <a  href="twob.html">দ্বিতীয় শ্রেণি</a>
+                                <a  href="threeb.html">তৃতীয় শ্রেণি</a>
+                                <a  href="fourb.html">চতুর্থ শ্রেণি</a>
+                                <a  href="fiveb.html">পঞ্চম শ্রেণি</a>
+                                <a  href="sixb.html">ষষ্ঠ শ্রেণি</a>
+                                <a  href="sevenb.html">সপ্তম শ্রেণি</a>
+                                <a  href="eightb.html">অষ্টম শ্রেণি</a>
+                                <a ` href="ninetenb.html">নবম-দশম শ্রেণি </a>
+                </div>
+          </div>
+      </li>
          
+      <li >
+        <div class="dropdown">
+          <button class="drop">Books</button>
+          <div class="dropdown-content">
+            <a  href="https://drive.google.com/file/d/1BZHgbqzUEu17_tPAiAQArB_niU_L-cF0/preview" target="test1"> আমার বাংলা বই</a>
+            <a  href="https://drive.google.com/file/d/11CRVsW4i9fuo3H9fO76N3hXLvLqlo4cg/preview" target="test1"> প্রাথমিক গণিত</a>
+            <a  href="https://drive.google.com/file/d/1kCnyERAJiP8enX2Dwm8ee2TLWtE01JHB/preview" target="test1"> English for Today</a>
+            <a  href="https://drive.google.com/file/d/1BszeK3WHZjKg3gDRfCT9uVzvAN6pOe3H/preview" target="test1"> প্রাথমিক বিজ্ঞান</a>                
+            <a  href="https://drive.google.com/file/d/1Pz7fnpRjKbA4oliwIp9SeEBzL6KXw2Q3/preview" target="test1">বাংলাদেশ ও বিশ্বপরিচয়</a>
+            <a  href="https://drive.google.com/file/d/1sAVJVdihKJQeVuYpMAzHbJUn-BzK3aat/preview" target="test1" >ইসলাম ও নৈতিক শিক্ষা</a>
+            <a  href="https://drive.google.com/file/d/1o4YekRA-eKjtSPHX80QvxAWkmCAMacMI/preview" target="test1" >হিন্দুধর্ম ও নৈতিক শিক্ষা</a>
+            <a  href="https://drive.google.com/file/d/1iD7kD6ahLvn7u-Tt_C246RzbfvjSl2o-/preview" target="test1" > বৌদ্ধধর্ম ও নৈতিক শিক্ষা</a>
+           <a  href="https://drive.google.com/file/d/1P55uhtmiC8VNKD51v2rbIXpO2kp-RaR6/preview" target="test1" > খ্রিষ্টধর্ম ও নৈতিক শিক্ষা</a>
+            </div>
+      </div>
+  </li>
+    
+  
+          <li >
+            <div class="dropdown">
+                <button class="drop">Quiz</button>
+                <div class="dropdown-content">
+                  <a href="quiz/quiz1.html">Math</a>
+                  
+                    </div>
+              </div>
+          </li>
 
-    </body>
+          
+
+       </ul>
+      </div>
+   </nav>
+
+   <div class="content">
+ 
+   <section class="book-area">
+
+   
+
+    <div class="main-content">
+        <div class="book">
+            <iframe src="https://drive.google.com/file/d/1BZHgbqzUEu17_tPAiAQArB_niU_L-cF0/preview" name="test1" id="test1"></iframe>
+        </div>
+
+    
+      
+    </div>
+  </section>
+
+  
+
+        </div>
+      
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+       
+    
+</body>
 </html>
+
+
