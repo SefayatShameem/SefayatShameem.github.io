@@ -141,6 +141,7 @@ section{
 
 .dropdown{
     position: absolute;
+    
     top: 100%;
     left: 0;
     width: 10rem;
@@ -148,11 +149,12 @@ section{
     opacity: 0;
     pointer-events: none;
     transition: .5s;
+    
 }
-
-.dropdown ul{
-    position: relative;
-}
+.dropdown-menu {
+    max-height:500px;
+    overflow:scroll; 
+ }
 
 .dropdown-link > a{
     display: flex;
