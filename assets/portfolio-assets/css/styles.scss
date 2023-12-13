@@ -1,0 +1,12 @@
+@import 'typed';
+
+.time-of-day {
+	padding: 0 0 0 3px;
+	background-color: lightsalmon;
+	&::before { font-weight: 600; }
+	@include typed(
+		"day", "night", "morning",
+		2,
+		(caret-width: 2px, caret-space: 2px)
+	);
+}

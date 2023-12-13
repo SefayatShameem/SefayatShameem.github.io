@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+
+content{
+    position: relative;
+}
+
+main-content{
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    position: absolute;
+    animation: animation .5s ease forwards var(--i);
+}
+
+.containerz{
+    background-color: #333;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.draggable{
+    padding: 1rem;
+    background-color: white;
+    border: 5px solid rgb(78, 78, 78);
+    text-align: center;
+    cursor: move;
+    font-size: 6vh;
+
+
+}
+
+.draggable.dragging{
+    opacity: .5;
+}
+
+.divider{
+    padding-top: 3vh;
+    text-align: center;
+    font-size: 5vh;
+}

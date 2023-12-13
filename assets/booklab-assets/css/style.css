@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.icon{
+    padding: 10px;
+}
+
+
+.class-name{
+    padding: 5px;
+    margin: 5px;
+    height: 10vh;
+    width: 20vw;
+    border-right:2px solid grey;
+    border-bottom:2px solid grey;
+    background-color: aliceblue;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.class-name a{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    .nope{
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        border: 5px solid #fff;
+        border-radius: 10px;
+        box-shadow: 5px #000;
+    }
+
+.main{
+   overflow: hidden;
+}
+
+
+
+.class-selector{
+    display: block;
+    height: 80vh;
+    width: 100%;
+    border: 1px solid black;
+    overflow-y: auto;
+   
+}
+
+.navz:focus{
+    background-color: aliceblue; 
+}
+
+@media only screen and (max-width:768px) {
+    .class-name{
+        height: 120px;
+    }   
+}

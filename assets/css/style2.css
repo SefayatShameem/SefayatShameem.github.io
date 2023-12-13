@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+width: 100%;
+}
+
+
+.dropdown:hover .dropdown-item{
+    display: block;
+  }
+
+
+.main-content{
+  width: 100%;
+align-items: center;
+margin: 0px;
+padding-top:10%;
+padding-left:2.5%;
+padding-bottom:20%;
+padding-right:0.5px;
+flex: 1 1 88%;
+min-height: 100vh;
+}
+
+.book-catalog{
+display: grid;
+height: 100%;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 10px;
+
+}
+
+.book-catalog.book{
+background:#333333;
+
+display:flex;
+justify-content : center;
+align-items: center;
+
+
+}
+
