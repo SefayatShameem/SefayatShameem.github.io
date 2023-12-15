@@ -4,6 +4,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: clip;
+}
+
+*::-webkit-scrollbar{
+    display: none;
 }
 
 body{
@@ -259,6 +264,7 @@ body{
 }
 
 .cv-container{
+    padding-top: 5%;
     position: relative;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -329,15 +335,7 @@ footer {
     left: 0;
     bottom: 0;
     text-align: center;
-    display: inline-block;
-    height: 100px;
-    width: 100%;
-    background-color: #212529;
-    color: #FFFFFF;
-}
-footer .copyright{    
-    position: absolute;
-    top: 39px;
+    height: 40px;
     width: 100%;
     background-color: #212529;
     color: #FFFFFF;
@@ -350,8 +348,7 @@ footer .copyright{
     position: relative;
     height: 600px;
     overflow-y: hidden;
-    overflow-x: hidden;
-    
+    overflow-x: hidden;  
     
 }
 
@@ -393,21 +390,28 @@ footer .copyright{
 }
 
 @media screen and (width <= 768px){
-    
-.portfolio-image{
-    width: 90%;    
-}
+
+    .intro{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+       
+        
+    .portfolio-image{
+        width: 90%;    
+    }
 
 
-.portfolio-image-mobile{
-    height: 90vh;
-    width: 80%;
-}
+    .portfolio-image-mobile{
+        margin-left: 10%;
+        height: 90vh;
+        width: 90%;
+    }
 
-.portfolio-image-mobile .iframe{
-    height: 82vh;
-    width: 99%;    
-}    
+    .portfolio-image-mobile .iframe{
+        height: 82vh;
+        width: 99%;    
+    }    
 
     .intro-img img{
     position: absolute;
@@ -416,5 +420,43 @@ footer .copyright{
     right: 0;
     height: 300px;
     z-index: 10;
-}
+    }
+    
+    .cv-container{
+        padding-top: 0%;
+        padding-left: 2REM;
+    }
+
+    .contact-text{
+        position: absolute;
+        left: 20%;
+        align-items: center;
+        height: 75px;
+        width: 60%;
+        padding-left: 25%;
+        background-color: #000000;
+        color: #FFFFFF;
+        border-radius: 10px;
+
+    }
+
+
+    .contact-text h5{
+        position: absolute;
+        right: 39%;
+    }
+
+
+    .contact-link{
+        background-color: #000000;
+        color: #FFFFFF;
+        position: absolute;
+        top: 5%;
+        right:25%;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        text-align: center;
+    }
+}    
  
