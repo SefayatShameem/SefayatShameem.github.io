@@ -392,7 +392,7 @@ footer .copyright{
 }
 }
 
-@media screen and (max-width:768px){
+@media screen and (width <= 768px){
     
 .portfolio-image{
     width: 90%;    
@@ -406,58 +406,15 @@ footer .copyright{
 
 .portfolio-image-mobile .iframe{
     height: 82vh;
-    width: 99%;
-    
+    width: 99%;    
 }    
-}
 
-@media screen and (max-width:594px){
-
-   
-    .intro{
-        position: relative;
-        height: 600px;
-        overflow-y: hidden;
-        overflow-x: hidden;
-        
-        
-    }
-    
-    .intro-text{
-        display: flex;
-        float: left;
-        top: 50%;
-        background-color: #000000;
-        color: #FFFFFF;
-    
-    }
-    
-    .intro-modal{
-        position: absolute;
-        top: 68%;
-    }
-    
-    .intro-img .circle{
-        background: transparent;
-        display: flex;
-        float: right;
-        border-radius: 0;
-    }
-    .intro-img .imgStyle{
-       display: none;
-       
-    }
-    
     .intro-img img{
-        /* position:fixed;
-        top: 6.5%;
-        height: 300px; */
-        position: absolute;
+    position: absolute;
     top: 8.5%;
-    left: 30%;
-    right: 10%;
+    left: 50%;
+    right: 0;
     height: 300px;
     z-index: 10;
-
-    }
-    }
+}
+ 
